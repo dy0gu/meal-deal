@@ -789,7 +789,7 @@ body.dark-theme {
   text-align: center;
   font-size: var(--smaller-font-size);
   color: var(--text-color-light);
-  margin: 5rem 5rem 1rem;
+  margin: 5rem 1rem 1rem;
 }
 
 /*=============== SCROLL UP ===============*/
