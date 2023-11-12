@@ -483,12 +483,12 @@ body.dark-theme {
   transform: translateY(-.25rem);
 }
 
-/*=============== PRODUCTS ===============*/
-.team__description {
+/*=============== MEMBERS ===============*/
+.members__description {
   text-align: center;
 }
 
-.team__container {
+.members__container {
   padding: 3rem 0;
   grid-template-columns: repeat(2, 1fr);
   gap: 2.5rem 3rem;
@@ -856,7 +856,7 @@ body.dark-theme {
     padding: 1.5rem;
   }
 
-  .team__container {
+  .members__container {
     grid-template-columns: .6fr;
     justify-content: center;
   }
@@ -868,11 +868,11 @@ body.dark-theme {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .team__description {
+  .members__description {
     padding: 0 4rem;
   }
 
-  .team__container {
+  .members__container {
     grid-template-columns: repeat(2, 170px);
     justify-content: center;
     column-gap: 5rem;
@@ -989,11 +989,11 @@ body.dark-theme {
     font-size: var(--normal-font-size);
   }
 
-  .team__description {
+  .members__description {
     padding: 0 16rem;
   }
 
-  .team__container {
+  .members__container {
     padding: 4rem 0;
     grid-template-columns: repeat(3, 185px);
     gap: 4rem 6rem;
