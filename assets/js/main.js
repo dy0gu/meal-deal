@@ -68,24 +68,31 @@ const toggleItem = (item) => {
 }
 
 /*=============== SCROLL SECTIONS ACTIVE LINK ===============*/
-const sections = document.querySelectorAll('section[id]')
+document.addEventListener('DOMContentLoaded', function () {
+    const sections = document.querySelectorAll('section[id]')
 
-function scrollActive() {
-    const scrollY = window.pageYOffset
+    function scrollActive() {
+        const scrollY = window.scrollY
 
-    sections.forEach(current => {
-        const sectionHeight = current.offsetHeight,
-            sectionTop = current.offsetTop - 58,
-            sectionId = current.getAttribute('id')
+        sections.forEach(current => {
+            const sectionHeight = current.offsetHeight,
+                sectionTop = current.offsetTop - 58,
+                sectionId = current.getAttribute('id'),
+                link = document.querySelector('.nav__menu a[href*=' + sectionId + ']');
 
-        if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
-            document.querySelector('.nav__menu a[href*=' + sectionId + ']').classList.add('active-link')
-        } else {
-            document.querySelector('.nav__menu a[href*=' + sectionId + ']').classList.remove('active-link')
-        }
-    })
-}
-window.addEventListener('scroll', scrollActive)
+            if (link) {
+                if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
+                    link.classList.add('active-link');
+                } else {
+                    link.classList.remove('active-link');
+                }
+            }
+        })
+    }
+
+    window.addEventListener('scroll', scrollActive);
+});
+
 
 /*=============== SHOW SCROLL UP ===============*/
 function scrollUp() {
