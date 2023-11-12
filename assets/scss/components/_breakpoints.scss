@@ -40,7 +40,7 @@
         }
     }
 
-    .product {
+    .member {
         &__description {
             padding: 0 4rem;
         }
@@ -167,7 +167,7 @@
         }
     }
 
-    .product {
+    .member {
         &__description {
             padding: 0 16rem;
         }
@@ -182,13 +182,7 @@
             width: 160px;
         }
 
-        &__circle {
-            width: 110px;
-            height: 110px;
-        }
-
-        &__title,
-        &__price {
+        &__name {
             font-size: var(--normal-font-size);
         }
     }

@@ -27,8 +27,7 @@
         transition: .3s;
     }
 
-    &__title,
-    &__price {
+    &__name {
         font-size: var(--small-font-size);
         font-weight: var(--font-semi-bold);
         color: var(--title-color);
@@ -51,15 +50,5 @@
         &:hover {
             background-color: var(--first-color-alt);
         }
-    }
-
-    &__circle {
-        width: 90px;
-        height: 90px;
-        background-color: var(--first-color-lighten);
-        border-radius: 50%;
-        position: absolute;
-        top: 18%;
-        left: 5%;
     }
 }

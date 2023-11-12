@@ -4,10 +4,8 @@
 /*=============== VARIABLES CSS ===============*/
 :root {
   --header-height: 3.5rem;
-  /*56px*/
 
   /*========== Colors ==========*/
-  /*Color mode HSL(hue, saturation, lightness)*/
   --hue: 152;
   --first-color: hsl(var(--hue), 24%, 32%);
   --first-color-alt: hsl(var(--hue), 24%, 28%);
@@ -20,7 +18,6 @@
   --container-color: #FFF;
 
   /*========== Font and typography ==========*/
-  /*.5rem = 8px | 1rem = 16px ...*/
   --body-font: 'Poppins', sans-serif;
   --big-font-size: 2rem;
   --h1-font-size: 1.5rem;
@@ -34,8 +31,7 @@
   --font-medium: 500;
   --font-semi-bold: 600;
 
-  /*========== Margenes Bottom ==========*/
-  /*.5rem = 8px | 1rem = 16px ...*/
+  /*========== Margins bottom ==========*/
   --mb-0-5: .5rem;
   --mb-0-75: .75rem;
   --mb-1: 1rem;
@@ -43,7 +39,7 @@
   --mb-2: 2rem;
   --mb-2-5: 2.5rem;
 
-  /*========== z index ==========*/
+  /*========== Z index ==========*/
   --z-tooltip: 10;
   --z-fixed: 100;
 }
@@ -140,7 +136,6 @@ body.dark-theme {
   background-color: var(--first-color-dark);
 }
 
-.dark-theme .product__circle,
 .dark-theme .footer__subscribe {
   background-color: var(--container-color);
 }
@@ -269,17 +264,14 @@ body.dark-theme {
   color: var(--first-color);
 }
 
-/* Show menu */
 .show-menu {
   right: 0;
 }
 
-/* Change background header */
 .scroll-header {
   box-shadow: 0 1px 4px hsla(var(--hue), 4%, 15%, .1);
 }
 
-/* Active link */
 .active-link {
   position: relative;
   color: var(--first-color);
@@ -593,7 +585,6 @@ body.dark-theme {
   box-shadow: 0 2px 8px hsla(var(--hue), 4%, 15%, .15);
 }
 
-/*Rotate icon, change color of titles and background*/
 .accordion-open .questions__header,
 .accordion-open .questions__content {
   background-color: var(--first-color);
@@ -684,7 +675,6 @@ body.dark-theme {
   resize: none;
 }
 
-/*Input focus move up label*/
 .contact__input:focus+.contact__label {
   top: -.75rem;
   left: 0;
@@ -692,7 +682,6 @@ body.dark-theme {
   z-index: 10;
 }
 
-/*Input focus sticky top label*/
 .contact__input:not(:placeholder-shown).contact__input:not(:focus)+.contact__label {
   top: -.75rem;
   font-size: var(--smaller-font-size);
@@ -1003,12 +992,6 @@ body.dark-theme {
     width: 160px;
   }
 
-  .product__circle {
-    width: 110px;
-    height: 110px;
-  }
-
-  .product__title,
   .member__name {
     font-size: var(--normal-font-size);
   }
