@@ -486,12 +486,12 @@ body.dark-theme {
   gap: 2.5rem 3rem;
 }
 
-.member__card {
+.members__card {
   display: grid;
   position: relative;
 }
 
-.member__img {
+.members__img {
   position: relative;
   width: 120px;
   justify-self: center;
@@ -499,13 +499,13 @@ body.dark-theme {
   transition: .3s;
 }
 
-.member__name {
+.members__name {
   font-size: var(--small-font-size);
   font-weight: var(--font-semi-bold);
   color: var(--title-color);
 }
 
-.member__button {
+.members__button {
   position: absolute;
   right: 0;
   bottom: 0;
@@ -516,11 +516,11 @@ body.dark-theme {
   font-size: 1.15rem;
 }
 
-.member__button:hover {
+.members__button:hover {
   background-color: var(--first-color-alt);
 }
 
-.member__card:hover .member__img {
+.members__card:hover .members__img {
   transform: translateY(-.5rem);
 }
 
@@ -988,11 +988,11 @@ body.dark-theme {
     gap: 4rem 6rem;
   }
 
-  .member__img {
+  .members__img {
     width: 160px;
   }
 
-  .member__name {
+  .members__name {
     font-size: var(--normal-font-size);
   }
 
