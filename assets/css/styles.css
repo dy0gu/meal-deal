@@ -683,7 +683,6 @@ body.dark-theme {
 
 /*=============== FOOTER ===============*/
 .footer__container {
-  row-gap: 3rem;
   font-size: var(--smaller-font-size);
   color: var(--text-color-light);
 }
@@ -802,8 +801,7 @@ body.dark-theme {
   .home__container,
   .about__container,
   .questions__container,
-  .contact__container,
-  .footer__container {
+  .contact__container {
     grid-template-columns: repeat(2, 1fr);
   }
 
@@ -905,10 +903,6 @@ body.dark-theme {
 
   .questions__description {
     padding: 0 3.5rem 2.25rem 2.75rem;
-  }
-
-  .footer__container {
-    grid-template-columns: 1fr .5fr .5fr .5fr;
   }
 }
 
