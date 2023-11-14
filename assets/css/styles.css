@@ -431,7 +431,7 @@ body.dark-theme {
 
 /*=============== STEPS ===============*/
 .steps__bg {
-  background-color: var(--first-color);
+  background-color: var(--first-color-lighten);
   padding: 3rem 2rem 2rem;
   border-radius: 1rem;
 }
@@ -439,10 +439,6 @@ body.dark-theme {
 .steps__container {
   gap: 2rem;
   padding-top: 1rem;
-}
-
-.steps__title {
-  color: #FFF;
 }
 
 .steps__card {
@@ -998,10 +994,6 @@ body.dark-theme {
 
   .questions__container {
     padding: 1rem 0 4rem;
-  }
-
-  .questions__title {
-    text-align: initial;
   }
 
   .questions__group {
