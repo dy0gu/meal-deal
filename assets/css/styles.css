@@ -618,6 +618,10 @@ body.dark-theme {
   font-weight: var(--font-medium);
 }
 
+.contact__description:hover {
+  color: var(--first-color);
+}
+
 .contact__icon {
   font-size: 1.25rem;
 }
