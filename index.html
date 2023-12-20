@@ -366,7 +366,7 @@
                     </div>
                 </div>
 
-                <form action="" class="contact__form">
+                <form class="contact__form" action="" onsubmit="event.preventDefault();">
                     <div class="contact__inputs">
                         <div class="contact__content">
                             <input type="email" placeholder=" " class="contact__input">
@@ -389,6 +389,12 @@
                         <i class="ri-arrow-right-up-line button__icon"></i>
                     </button>
                 </form>
+
+                <script>
+                    function submitForm() {
+                        // Handle form submission here
+                    }
+                </script>
             </div>
         </section>
     </main>
