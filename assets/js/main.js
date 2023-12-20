@@ -2,6 +2,16 @@
 var currentYear = new Date().getFullYear();
 document.getElementById('copyright').textContent = '© ' + currentYear + ' MealDeal. All rights reserved.';
 
+/*=============== FORM SUBMISSION ===============*/
+function submitForm(event) {
+    event.preventDefault();
+
+    // Clear input fields and do nothing
+    document.getElementById('name').value = '';
+    document.getElementById('email').value = '';
+    document.getElementById('message').value = '';
+}
+
 /*=============== SHOW MENU ===============*/
 const navMenu = document.getElementById('nav-menu'),
     navToggle = document.getElementById('nav-toggle'),

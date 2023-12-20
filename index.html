@@ -366,21 +366,22 @@
                     </div>
                 </div>
 
-                <form class="contact__form" action="" onsubmit="event.preventDefault();">
+                <form class="contact__form" onsubmit="submitForm(event)">
                     <div class="contact__inputs">
                         <div class="contact__content">
-                            <input type="email" placeholder=" " class="contact__input">
-                            <label for="" class="contact__label">Email</label>
+                            <input id="form-email" type="email" name="email" placeholder="" class="contact__input">
+                            <label for="form-email" class="contact__label">Email</label>
                         </div>
 
                         <div class="contact__content">
-                            <input type="text" placeholder=" " class="contact__input">
-                            <label for="" class="contact__label">Subject</label>
+                            <input id="form-subject" type="text" name="subject" placeholder="" class="contact__input">
+                            <label for="form-subject" class="contact__label">Subject</label>
                         </div>
 
                         <div class="contact__content contact__area">
-                            <textarea name="message" placeholder=" " class="contact__input"></textarea>
-                            <label for="" class="contact__label">Message</label>
+                            <textarea id="form-message" type="text" name="message" placeholder=""
+                                class="contact__input"></textarea>
+                            <label for="form-message" class="contact__label">Message</label>
                         </div>
                     </div>
 
@@ -389,12 +390,6 @@
                         <i class="ri-arrow-right-up-line button__icon"></i>
                     </button>
                 </form>
-
-                <script>
-                    function submitForm() {
-                        // Handle form submission here
-                    }
-                </script>
             </div>
         </section>
     </main>
