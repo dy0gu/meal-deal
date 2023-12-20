@@ -698,17 +698,10 @@ body.dark-theme {
   color: var(--first-color);
 }
 
-.footer__container a:hover {
-  color: var(--first-color-alt);
-}
-
-
 .footer__section {
   flex: 1;
   padding: 0 1rem;
 }
-
-
 
 /*=============== SCROLL UP ===============*/
 .scrollup {
