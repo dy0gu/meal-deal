@@ -11,7 +11,7 @@ MIalDeal is a website developed to showcase a fictional project/app, MealDeal. I
 * Clone the repository:
 
   ```shell
-  git clone https://github.com/Dy0gu/MIalDeal.git
+  git clone https://github.com/Dy0gu/MealDeal.git
   ```
 
 ## Usage 🚩
