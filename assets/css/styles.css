@@ -686,10 +686,29 @@ body.dark-theme {
 }
 
 /*=============== FOOTER ===============*/
+
 .footer__container {
+  display: flex;
+  justify-content: space-between;
   font-size: var(--smaller-font-size);
   color: var(--text-color-light);
 }
+
+.footer__container a {
+  color: var(--first-color);
+}
+
+.footer__container a:hover {
+  color: var(--first-color-alt);
+}
+
+
+.footer__section {
+  flex: 1;
+  padding: 0 1rem;
+}
+
+
 
 /*=============== SCROLL UP ===============*/
 .scrollup {
@@ -701,18 +720,13 @@ body.dark-theme {
   padding: .5rem;
   border-radius: .25rem;
   z-index: var(--z-tooltip);
-  opacity: .8;
+  opacity: 1;
   transition: .4s;
 }
 
 .scrollup__icon {
   font-size: 1rem;
   color: #FFF;
-}
-
-.scrollup:hover {
-  background-color: var(--first-color-alt);
-  opacity: 1;
 }
 
 /* Show Scroll Up*/
