@@ -692,6 +692,7 @@ body.dark-theme {
   justify-content: space-between;
   font-size: var(--smaller-font-size);
   color: var(--text-color-light);
+  margin-bottom: 3.5rem;
 }
 
 .footer__container a {
@@ -700,7 +701,10 @@ body.dark-theme {
 
 .footer__section {
   flex: 1;
-  padding: 0 1rem;
+}
+
+.footer__section:not(:last-child) {
+  padding-right: 5rem;
 }
 
 /*=============== SCROLL UP ===============*/
