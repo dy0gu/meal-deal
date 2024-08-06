@@ -32,7 +32,7 @@ if (navClose) {
 }
 
 /*=============== REMOVE MENU MOBILE ===============*/
-const navLink = document.querySelectorAll(".nav__link")
+const navLink = document.querySelectorAll(".nav-link")
 
 function linkAction() {
     const navMenu = document.getElementById("nav-menu")
@@ -49,10 +49,10 @@ function scrollHeader() {
 window.addEventListener("scroll", scrollHeader)
 
 /*=============== QUESTIONS ACCORDION ===============*/
-const accordionItems = document.querySelectorAll(".questions__item")
+const accordionItems = document.querySelectorAll(".questions-item")
 
 accordionItems.forEach((item) => {
-    const accordionHeader = item.querySelector(".questions__header")
+    const accordionHeader = item.querySelector(".questions-header")
 
     accordionHeader.addEventListener("click", () => {
         const openItem = document.querySelector(".accordion-open")
@@ -66,7 +66,7 @@ accordionItems.forEach((item) => {
 })
 
 const toggleItem = (item) => {
-    const accordionContent = item.querySelector(".questions__content")
+    const accordionContent = item.querySelector(".questions-content")
 
     if (item.classList.contains("accordion-open")) {
         accordionContent.removeAttribute("style")
@@ -89,7 +89,7 @@ document.addEventListener("DOMContentLoaded", function () {
             const sectionHeight = current.offsetHeight,
                 sectionTop = current.offsetTop - 58,
                 sectionId = current.getAttribute("id"),
-                link = document.querySelector(".nav__menu a[href*=" + sectionId + "]");
+                link = document.querySelector(".nav-menu a[href*=" + sectionId + "]");
 
             if (link) {
                 if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
@@ -146,9 +146,9 @@ const sr = ScrollReveal({
     delay: 400,
 })
 
-sr.reveal(`.home__data`)
-sr.reveal(`.home__img`, { delay: 500 })
-sr.reveal(`.home__social`, { delay: 600 })
-sr.reveal(`.about__img, .contact__box`, { origin: "left" })
-sr.reveal(`.about__data, .contact__form`, { origin: "right" })
-sr.reveal(`.steps__card, .members__card, .questions__group, .footer`, { interval: 100 })
+sr.reveal(`.home-data`)
+sr.reveal(`.home-img`, { delay: 500 })
+sr.reveal(`.home-social`, { delay: 600 })
+sr.reveal(`.about-img, .contact-box`, { origin: "left" })
+sr.reveal(`.about-data, .contact-form`, { origin: "right" })
+sr.reveal(`.steps-card, .members-card, .questions-group, .footer`, { interval: 100 })
