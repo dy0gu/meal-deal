@@ -1,4 +1,4 @@
-/*=============== GET COPYRIGHT YEAR ===============*/
+/*=============== COPYRIGHT ===============*/
 var currentYear = new Date().getFullYear();
 document.getElementById("copyright").textContent = "© " + currentYear + " MealDeal. All rights reserved.";
 
