@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/dy0gu/meal-deal/compare/v1.0.0...v1.0.1) (2024-08-31)
+
+
+### Bug Fixes
+
+* fill header side logo ([c453754](https://github.com/dy0gu/meal-deal/commit/c453754f4e7cd1609c5bae351d98d42c656ebfd2))
+
 ## 1.0.0 (2024-08-18)
 
 
