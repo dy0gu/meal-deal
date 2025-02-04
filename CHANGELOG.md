@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.2](https://github.com/dy0gu/meal-deal/compare/v1.0.1...v1.0.2) (2025-02-04)
+
+
+### Bug Fixes
+
+* improve seo ([0b8caa9](https://github.com/dy0gu/meal-deal/commit/0b8caa9900f862b578e84ae880098a033c626747))
+
 ## [1.0.1](https://github.com/dy0gu/meal-deal/compare/v1.0.0...v1.0.1) (2024-08-31)
 
 
